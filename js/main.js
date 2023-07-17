@@ -3,7 +3,7 @@ import { cargarMap, searchCity } from './map.js';
 import { getData } from './db.js';
 import { mostrarRuta } from '../modules/rutas.js';
 
-// loadHome();
+loadHome();
 
 document.getElementById('home').addEventListener('click',() => {
   loadHome();

@@ -4,7 +4,7 @@ const rutaDetalles = document.getElementById('rutaDetalles');
 const puntosList = document.getElementById('puntosList');
 const puntoForm = document.getElementById('puntoForm');
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'http://localhost:3005';
 
 // Función para crear una nueva Ruta
 const crearRuta = async (nombre) => {
