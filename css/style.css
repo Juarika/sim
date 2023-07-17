@@ -1,0 +1,16 @@
+#map {
+    width: 75vw;
+    height: 50vh;
+    margin: 5vh auto;
+}
+
+.button-link {
+    background: none;
+    border: none;
+    padding: 10;
+    margin: 0 10px;
+    color: blue;
+    cursor: pointer;
+  }
+
+  

@@ -1,0 +1,36 @@
+{
+  "Rutas": [
+    {
+      "id": 1,
+      "NomRuta": "Cafetera",
+      "colorRuta": "blue"
+    },
+    {
+      "id": 2,
+      "NomRuta": "Del Sol",
+      "colorRuta": "red"
+    }
+  ],
+  "Puntos": [
+    {
+      "id": 1,
+      "NomPuntos": "Manizales",
+      "RutaId": 1
+    },
+    { 
+      "id": 2,
+      "NomPuntos": "Armenia",
+      "RutaId": 1
+    },
+    {
+      "id": 3,
+      "NomPuntos": "Tunja",
+      "RutaId": 2
+    },
+    {
+      "id": 4,
+      "NomPuntos": "Bucaramanga",
+      "RutaId": 2
+    }
+  ]
+}
