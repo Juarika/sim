@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutas y Puntos de Llegada</title>
+    <!-- Agregar enlaces a Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">Rutas y Puntos de Llegada</h1>
+
+        <!-- Formulario para crear Rutas -->
+        <h2 class="mt-4">Crear Ruta:</h2>
+        <form id="rutaForm">
+            <div class="input-group mb-3">
+                <input type="text" id="rutaNombre" class="form-control" placeholder="Nombre de la Ruta" required>
+                <button type="submit" class="btn btn-primary">Crear Ruta</button>
+            </div>
+        </form>
+
+        <!-- Lista de Rutas -->
+        <h2 class="mt-4">Lista de Rutas:</h2>
+        <ul id="rutaList" class="list-group"></ul>
+
+        <!-- Detalles de la Ruta seleccionada -->
+        <div id="rutaDetalles" style="display: none;">
+            <h2 class="mt-4">Detalles de la Ruta:</h2>
+            <h3 id="rutaNombreDetalle"></h3>
+            <ul id="puntosList" class="list-group"></ul>
+
+            <!-- Formulario para crear Puntos en la Ruta -->
+            <h3 class="mt-4">Agregar Punto:</h3>
+            <form id="puntoForm">
+                <div class="input-group mb-3">
+                    <input type="text" id="puntoNombre" class="form-control" placeholder="Nombre del Punto" required>
+                    <input type="text" id="puntoImagen" class="form-control" placeholder="URL de la Imagen" required>
+                    <button type="submit" class="btn btn-success">Agregar Punto</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Agregar enlaces a Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
